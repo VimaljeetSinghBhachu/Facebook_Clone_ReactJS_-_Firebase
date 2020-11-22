@@ -1,0 +1,45 @@
+.login {
+  background-color: #eff2ef;
+  height: 100vh;
+  padding-top: 200px;
+  padding-left: 500px;
+}
+
+.logo_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.login_image > img {
+  margin-bottom: -14px;
+}
+
+.login_text > h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 32px;
+  width: 550px;
+  padding-left: 30px;
+  color: #1c1e21;
+  margin-top: 0px;
+}
+
+.signin_button {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  padding-right: 465px;
+  padding-top: 20px;
+}
+
+.signin_button > button {
+  width: 200px;
+  background-color: #1877f2;
+  color: #eff2ef;
+}
+
+.signin_button > button:hover {
+  background-color: #ffffff;
+  color: #1877f2;
+}
